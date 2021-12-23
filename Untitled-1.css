@@ -4,6 +4,7 @@ body,ul,li p{
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
+    
 
 }
 
@@ -14,4 +15,15 @@ body,ul,li p{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
 }
